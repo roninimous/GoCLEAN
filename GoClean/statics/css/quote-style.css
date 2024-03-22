@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7f6;
+    /* color: #333333; */
+}
+h2, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #005792;
+}
+
+header {
+    font-size: 1.2em;
+    
+}
+.navbar-brand {
+    font-size: 1.5rem !important; /* Larger size */
+    font-weight: bold; /* Optional bold font weight */
+    padding-right: 50px ;
+}
+
+.navbar{
+    background-color: rgb(255, 255, 255)	;
+    /* border-bottom: 1px solid #005792; */
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #005792;
+}
+.navbar .dropdown-menu .dropdown-item:hover,
+.navbar .dropdown-menu .dropdown-item:focus,
+.navbar .dropdown-menu .dropdown-item:active {
+    color: #005792;
+    background-color: #f8f9fa;
+}
+
+
+.brand-name {
+    color: #023047; /* Deep blue for trust and professionalism */
+}
+.carousel-caption {
+    background: rgba(255, 255, 255, 0.786); /* White semi-transparent background */
+    padding: 30px;
+    border-radius: 0.5rem;
+    margin-bottom:100px ;
+
+}
+.carousel-caption h3 {
+    /* font-size: 2.5em; */
+    color: #023047; /* Theme color for heading */
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.carousel-caption p {
+    color: #333; /* Dark color for text for readability */
+    margin-bottom: 1rem;
+}
+
+.carousel-caption a.btn {
+    background-color: #007bff; /* Theme color for button */
+    border-color: #007bff; /* Button border color */
+}
+.footer{
+    background-color: #0080ff;
+    color: white;
+    padding: 20px;
+}
+.dropdown-item{
+    color: black;
+}
+
+.reasons-to-choose .card {
+    box-shadow: 0 4px 6px rgba(0,0,0,.1); /* This adds a subtle shadow around the card */
+    border: none; /* This removes the border from the card */
+    transition: transform .3s ease-in-out; /* Animation for hover effect */
+    /* background-color: #F7F7F7;
+    color: #333333; */
+}
+  
+  .reasons-to-choose .card:hover {
+    transform: translateY(-5px); /* Slightly raises the card on hover */
+  }
+  
+  /* You might need to adjust the padding and font sizes depending on your design */
+  .reasons-to-choose h2 {
+    padding-bottom: 1rem;
+  }
+  
+  .reasons-to-choose .card-body i {
+    margin: auto;
+    display: block;
+  }
+  
+  .reasons-to-choose .card-title {
+    margin-top: 1rem;
+    font-size: 1rem; /* Adjust the size as needed */
+  }
+  #price{
+    color: #FFFFFF;
+  }
+  
+  .bg-primary {
+    background-color: #005792 !important; 
+    /* Change the color to match your branding */
+  }
+  .services .card {
+    /* background-color: #7FBAE7; */
+    color: 333333;
+}
+.services .card:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+.carousel {
+    height: 600px;
+}
+.carousel .carousel-item img {
+    object-fit: cover; 
+    height: 600px;
+}
+
+.text-cleanliness {
+    color: #34a0a4; /* Choose a color associated with cleanliness, like a light blue */
+}
+
+.text-convenience {
+    color: #ff9234; /* Choose a color associated with convenience, like a vibrant orange */
+}
+.cta-button {
+    background-color: #ff9234; /* Vibrant orange for action */
+    border-color: #ff9234; /* Matching border color */
+}
+
+#GetQuote {
+    background: #ffffff; /* White background for the form area */
+    border-radius: 5px; /* Slightly rounded corners for the form container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 2rem; /* Spacing inside the container */
+}
+
+/* aside{
+    float: right;
+    clear: both;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap');
