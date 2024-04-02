@@ -10,7 +10,14 @@ h2, h4, h6 {
 h5 {
     color: #023047 !important;
 }
+.main-content{
+    padding-top:106px;
+}
 
+.featurette-image{
+    border-radius: 10px;
+    box-shadow: #05274e69 5px 10px 20px;
+}
 header {
     font-size: 1.2em;
     
