@@ -17,46 +17,40 @@
 <body>
     <header>
         <!-- Bootstrap Navbar -->
-        <nav class="navbar navbar-expand-lg fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">GoClean</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="services.html">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                About Us
-                            </a>
-                            <!-- <div class="dropdown-menu" aria-labelledby="aboutDropdown">
-                                <a class="dropdown-item" href="about.html#history">Who We Are</a>
-                                <a class="dropdown-item" href="about.html#team">Why Us</a>
-                                <a class="dropdown-item" href="about.html#team">Our Work</a>
-                                <a class="dropdown-item" href="about.html#team">Our Team</a> -->
-                                <!-- Add more dropdown items as needed -->
-                            <!-- </div> -->
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="faq.html">FAQ</a>
-                        </li>
-                    </ul>
-                <!-- <div class="navbar-nav">
-                <button class="nav-item nav-link btn btn-success text-white" href="quote.html">Get Free Quote</button>
-                </div> -->
-                </div>
-            </div>              
-         </nav>
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="index.html">
+              <img src="statics/images/logo.png" alt="Logo" style="height: 80px;">
+              <img src="statics/images/brand.png" alt="Logo" style="height: 25px;">
+            </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav mr-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.html">Home</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">
+                              About Us
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="faq.html">FAQ</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>              
+</nav>
     </header>
 
     <div class="container mt-5" id="GetQuote">
-        <h2 class="text-center mb-4">Get a Free Quote</h2>
+        <h1 class="display-4 text-center mb-4">Get a Free Quote</h1>
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <form class="needs-validation" action="submit-quote.php" method="post" novalidate>
@@ -102,75 +96,85 @@
                         <label for="comments">Additional Comments (Optional)</label>
                         <textarea class="form-control" id="comments" name="comments" rows="4"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary btn-block">Submit</button><br>
+                    <button type="submit" class="btn btn-success btn-block">Submit</button><br>
                 </form>
             </div>
         </div>
     </div>
-    <!-- <aside>
-        <img class="float-right img-fluid" src="statics/images/cleaner.jpg" alt="Cleaner">
-    </aside> -->
-    
+  
 </body>
 <script>
-    // Example JavaScript for Bootstrap 5 to enable validation feedback
-(function () {
-    'use strict'
-  
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.querySelectorAll('.needs-validation')
-  
-    // Loop over them and prevent submission
-    Array.prototype.slice.call(forms)
-      .forEach(function (form) {
-        form.addEventListener('submit', function (event) {
-          if (!form.checkValidity()) {
-            event.preventDefault()
-            event.stopPropagation()
-          }
-  
-          form.classList.add('was-validated')
-        }, false)
-      })
-  })()
+    // JavaScript for Bootstrap 5 to enable validation feedback
+  (function () {
+      'use strict'
+    
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      var forms = document.querySelectorAll('.needs-validation')
+    
+      // Loop over them and prevent submission
+      Array.prototype.slice.call(forms)
+        .forEach(function (form) {
+          form.addEventListener('submit', function (event) {
+            if (!form.checkValidity()) {
+              event.preventDefault()
+              event.stopPropagation()
+            }
+    
+            form.classList.add('was-validated')
+          }, false)
+        })
+    })()
   
 </script>
-<footer class="footer">
-    <div class="container">
-      <div class="row">
-  
-        <!-- Company Name, Logo, Slogan -->
-        <div class="col-md-3">
-          <!-- <a href="index.html" class="footer-brand">
-            <img src="path-to-your-logo.png" alt="GoClean Logo" class="footer-logo">
-          </a> -->
-          <p class="slogan">GoClean</p>
-          <div class="social-media">
-            <!-- Icons with links to your social media pages -->
-            <a href="#" class="text-light mr-2"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="text-light mr-2"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
-          </div>
-        </div>
-  
-        <!-- Contact Address and Social Media -->
-        <div class="col-md-5 text-left">
-          <address>
-            <strong>Get In Touch</strong><br>
-            <i class="bi bi-telephone"></i>&nbsp 1300 110 912<br>
-            <i class="bi bi-geo-alt"></i>&nbsp 23/31 Keysborough Cl, Keysborough VIC 3173<br>
-          </address>
+<footer class="footer footer-expand-lg ">
+  <div class="container">
+    <div class="row">
+    
+      <!-- Company Name, Logo, Slogan -->
+      <div class="col-md-4">
+        <p class="slogan"><img src="statics/images/brand.png" style="width: 100px;"></p>
+        <p>© <span id="current-year" ></span> GoClean Solutions.<br>Pristine Perfection, Every Time.</p>
+        <a href="privacy.html" class="text-light"  >Privacy Policy </a><a href="terms.html" class="text-light">| Terms of Service</a>
+        
           
-        </div>
-  
-        <!-- Links to Privacy and Terms pages -->
-        <div class="col-md-4 text-left">
-          <br><a href="privacy.html" class="text-light d-block">Privacy Policy</a>
-          <a href="terms.html" class="text-light d-block">Terms of Service</a>
-        </div>
-  
       </div>
+
+      <!-- Contact Address and Social Media -->
+      <div class="col-md-4 text-left">
+        <address>
+          <br><br>
+          <strong>Get In Touch</strong><br><br>
+          <i class="bi bi-telephone"></i>&nbsp 1300 110 912<br>
+          <i class="bi bi-geo-alt"></i>&nbsp 23/31 Keysborough Cl, Keysborough VIC 3173<br>
+        </address>
+        
+      </div>
+
+      <!-- Links to Privacy and Terms pages -->
+      <div class="col-md-4 text-center">
+        <div style="font-size: 12px;">
+          <br><br>
+          <!-- Follow us: -->
+          <p>Follow Us:</p>
+          <a style="cursor:pointer;" onclick="window.open(getGoallan())">
+              <img class="text-center socialmedia" border="0" alt="Facebook Profile" src="https://goallan.com.au/img/icon/facebook.webp" width="30" height="30"></a>
+          <a style="cursor:pointer;" onclick="window.open(getGoallanIG())">
+              <img class="text-center socialmedia" border="0" alt="Instagram Profile" src="https://goallan.com.au/img/icon/instagram.webp" width="30" height="30"></a>
+          <a href="https://youtube.com/@goallan" target="_blank">
+              <img class="text-center socialmedia" border="0" alt="Youtube Channel" src="https://goallan.com.au/img/icon/youtube.webp" width="30" height="30"></a>
+          <a href="https://www.linkedin.com/company/goallan/" target="_blank">
+              <img class="text-center socialmedia" border="0" alt="LinkedIn Profile" src="https://goallan.com.au/img/icon/linkedin.webp" width="30" height="30"></a>
+      </div>
+
+       
+       
+      </div>
+
     </div>
-  </footer>
+  </div>
+</footer>
+<script>
+  document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
 </html>
 

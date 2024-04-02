@@ -61,9 +61,9 @@ header {
     border-color: #007bff; /* Button border color */
 }
 .footer{
-    background-color: #0080ff;
-    color: white;
-    padding: 20px;
+    background-color: #343a40; /* Bootstrap’s dark gray */
+    color: #ffffff; /* White text for contrast */
+    padding-top: 30px;
 }
 .dropdown-item{
     color: black;
@@ -122,7 +122,10 @@ header {
 .text-cleanliness {
     color: #34a0a4; /* Choose a color associated with cleanliness, like a light blue */
 }
-
+.navbar-brand img {
+    height: 70px; /* or whatever size looks best */
+    width: auto; /* maintain aspect ratio */
+}
 .text-convenience {
     color: #ff9234; /* Choose a color associated with convenience, like a vibrant orange */
 }

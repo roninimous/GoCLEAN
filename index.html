@@ -18,44 +18,30 @@
 <body>
     <header>
         <!-- Bootstrap Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand" href="index.html">GoClean </a>
+              <a class="navbar-brand" href="index.html">
+                <img src="statics/images/logo.png" alt="Logo" style="height: 80px;">
+                <img src="statics/images/brand.png" alt="Logo" style="height: 25px;">
+              </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
+                          
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
 
                         <li class="nav-item">
                           <a class="nav-link" href="services.html">Services</a>
                       </li>
-
-                        <!-- <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="services.html" id="servicesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Services
-                            </a> -->
-                            
-                            <!-- <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-                                <a class="dropdown-item" href="services.html#service1">Service 1</a>
-                                <a class="dropdown-item" href="services.html#service2">Service 2</a>
-                                
-                            </div> -->
-                        <!-- </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">
                                 About Us
                             </a>
-                            <!-- <div class="dropdown-menu" aria-labelledby="aboutDropdown">
-                                <a class="dropdown-item" href="about.html#history">Who We Are</a>
-                                <a class="dropdown-item" href="about.html#team">Why Us</a>
-                                <a class="dropdown-item" href="about.html#team">Our Work</a>
-                                <a class="dropdown-item" href="about.html#team">Our Team</a> -->
-                                <!-- Add more dropdown items as needed -->
-                            <!-- </div> -->
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="faq.html">FAQ</a>
@@ -68,7 +54,7 @@
             </div>              
   </nav>
     </header>
-    <section class="carousel">
+    <section class=" carousel">
       <div id="carouselFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
     
         <div class="carousel-inner">
@@ -83,88 +69,71 @@
             </div>
 
             <div class="carousel-caption d-none d-md-block" id="Hero">
-              <h1  class="brand-name">GoClean Solutions</h1>
-              <h3 class="slogan">Where <span class="text-cleanliness">Cleanliness</span> Meets <span class="text-convenience">Convenience</span></h3>
-              <p>At GoClean Services, we're dedicated to making your life easier by providing top-notch cleaning solutions for your home or business. With our attention to detail and commitment to customer satisfaction, we guarantee a clean and healthy environment every time.</p>
-                  <a href="quote.html" class="btn btn-primary">Get Free Quote</a>
+              <h1  class=" display-4 brand-name">GoClean Solutions</h1>
+              <h4 class="slogan">Pristine Perfection, Every Time</h4>
+              <p>At GoClean Solutions, we're dedicated to making your life easier by providing top-notch cleaning solutions for your business or home. 
+                With our attention to detail and commitment to customer satisfaction, we guarantee a clean and healthy environment every time.</p>
+                  <a href="quote.html" class="btn btn-success">Get Free Quote</a>
             </div>
         </div>
       </div>
         
       
     </section>
-
-    <!-- <section class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center" id="hero">
-                    <h2>Welcome to GoClean Services</h2>
-                    <p>Where Cleanliness Meets Convenience</p>
-                    <p>At GoClean Services, we're dedicated to making your life easier by providing top-notch cleaning solutions for your home or business. With our attention to detail and commitment to customer satisfaction, we guarantee a clean and healthy environment every time.</p>
-                    <a href="contact.html" class="btn btn-primary">Get Free Quote</a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
     <!-- Why Choose Us Section -->
-    <section class="reasons-to-choose py-5 " >
-        <div class="container ">
-          <h2 class="text-center mb-4">Reasons to Choose Us</h2>
-          <div class="row justify-content-center">
-            
-            <div class="col-md-2">
-              <div class="card text-center mx-auto">
-                <div class="card-body">
-                  <i class="fas fa-user-tie fa-2x" style="color: blue;" ></i>
-                  <h4 class="card-title mt-2">Experienced Professionals</h4>
-                </div>
+    <!-- Add a custom class for styling icons -->
+<section class="reasons-to-choose py-5">
+  <div class="container">
+      <h2 class="text-center mb-4">Why Us</h2>
+      <div class="row justify-content-center">
+          <!-- Example for one card -->
+          <div class="col-md-2">
+              <div class="card text-center custom-card">
+                  <div class="card-body">
+                      <i class="fa-solid fa-person-circle-check fa-2x icon-experienced"></i>
+                      <h4 class="card-title mt-3"><strong>Professional Cleaner</strong></h4>
+                  </div>
               </div>
-            </div>
-            <div class="col-md-2">
-              <div class="card text-center">
-                <div class="card-body">
-                  <i class="fas fa-cogs fa-2x" style="color: orange;" ></i>
-                  <h4 class="card-title mt-2">Customized Solutions</h4>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="card text-center " >
-                <div class="card-body">
-                  <i class="fas fa-tags fa-2x" style="color: #ff1a1a;" ></i>
-                  <h4 class="card-title mt-2" id="price">Affordable Prices</h4>
-                </div>
-              </div>
-            </div>
-            
-            <div class="col-md-2">
-              <div class="card text-center">
-                <div class="card-body">
-                  <i class="fas fa-leaf fa-2x" style="color: green;"></i>
-                  <h4 class="card-title mt-2">Eco-Friendly Products</h4>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-2">
-              <div class="card text-center">
-                <div class="card-body">
-                  <i class="fas fa-thumbs-up fa-2x" style="color: #19509c;"></i>
-                  <h4 class="card-title mt-2">Satisfaction Guarantee</h4>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="col-md-2">
-              <div class="card text-center">
-                <div class="card-body">
-                  <i class="fas fa-leaf fa-2x"></i>
-                  <h4 class="card-title mt-2">Just another card</h4>
-                </div>
-              </div>
-            </div> -->
           </div>
-        </div>
-      </section>
+          <div class="col-md-2">
+            <div class="card text-center custom-card">
+              <div class="card-body">
+                <i class="fas fa-cogs fa-2x icon-customized"></i>
+                <h4 class="card-title mt-3"><strong>Customized Solutions</strong></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card text-center custom-card" >
+              <div class="card-body">
+                <i class="fas fa-tags fa-2x icon-affordable"></i>
+                <h4 class="card-title mt-3"><strong>Affordable Prices</strong></h4>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-2">
+            <div class="card text-center custom-card">
+              <div class="card-body">
+                <i class="fas fa-leaf fa-2x icon-eco-friendly"></i>
+                <h4 class="card-title mt-3"><strong>Eco-Friendly Products</strong></h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card text-center custom-cards">
+              <div class="card-body">
+                <i class="fas fa-thumbs-up fa-2x icon-satisfaction"></i>
+                <h4 class="card-title mt-3"><strong>Satisfaction Guarantee</strong></h4>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+  
+           
       
     <!-- Services Section -->
     <section class="services py-5 bg-light">
@@ -175,7 +144,7 @@
                 <div class="card" style="width: 20rem;">
                     <img src="statics/images/cleaner.jpg" class="card-img-top" alt="Factories">
                     <div class="card-body">
-                      <h4 class="card-title">Factories</h4>
+                      <p class="card-title">Factories</p>
                       <p class="card-text">Ensure a clean and safe working environment with our specialized factory cleaning solutions.</p>
                       <a href="services.html" class="btn btn-primary">Learn More</a>
                     </div>
@@ -204,37 +173,24 @@
           </div>
         </div>
     </section>
-        <footer class="footer footer-expand-lg bg-primary">
+
+        <footer class="footer footer-expand-lg ">
             <div class="container">
               <div class="row">
               
                 <!-- Company Name, Logo, Slogan -->
-                <div class="col-md-3">
-                  <!-- <a href="index.html" class="footer-brand">
-                    <img src="path-to-your-logo.png" alt="GoClean Logo" class="footer-logo">
-                  </a> -->
-                  <p class="slogan">GoClean</p>
-                    <!-- <div class="social-media">
-                        <a href="#" class="social-icon mr-2 facebook"><i class="fab fa-facebook-f fa-1.5x" style="color: #ffffff;"></i></a>
-                        <a href="#" class="social-icon mr-2 instagram"><i class="fab fa-instagram fa-1.5x" style="color: #ffffff;"></i></a>
-                        <a href="#" class="social-icon mr-2 linkedin"><i class="fab fa-linkedin-in fa-1.5x" style="color: #ffffff;"></i></a>
-                    </div> -->
-                    <div style="font-size: 12px;">
-                      <!-- Follow us: -->
-                      <a style="cursor:pointer;" onclick="window.open(getGoallan())">
-                          <img class="text-center socialmedia" border="0" alt="Facebook Profile" src="https://goallan.com.au/img/icon/facebook.webp" width="30" height="30"></a>
-                      <a style="cursor:pointer;" onclick="window.open(getGoallanIG())">
-                          <img class="text-center socialmedia" border="0" alt="Instagram Profile" src="https://goallan.com.au/img/icon/instagram.webp" width="30" height="30"></a>
-                      <a href="https://youtube.com/@goallan" target="_blank">
-                          <img class="text-center socialmedia" border="0" alt="Youtube Channel" src="https://goallan.com.au/img/icon/youtube.webp" width="30" height="30"></a>
-                      <a href="https://www.linkedin.com/company/goallan/" target="_blank">
-                          <img class="text-center socialmedia" border="0" alt="LinkedIn Profile" src="https://goallan.com.au/img/icon/linkedin.webp" width="30" height="30"></a>
-                  </div>
+                <div class="col-md-4">
+                  <p class="slogan"><img src="statics/images/brand.png" style="width: 100px;"></p>
+                  <p>© <span id="current-year" ></span> GoClean Solutions.<br>Pristine Perfection, Every Time.</p>
+                  <a href="privacy.html" class="text-light"  >Privacy Policy </a><a href="terms.html" class="text-light">| Terms of Service</a>
+                  
+                    
                 </div>
           
                 <!-- Contact Address and Social Media -->
-                <div class="col-md-5 text-left">
+                <div class="col-md-4 text-left">
                   <address>
+                    <br><br>
                     <strong>Get In Touch</strong><br><br>
                     <i class="bi bi-telephone"></i>&nbsp 1300 110 912<br>
                     <i class="bi bi-geo-alt"></i>&nbsp 23/31 Keysborough Cl, Keysborough VIC 3173<br>
@@ -243,13 +199,32 @@
                 </div>
           
                 <!-- Links to Privacy and Terms pages -->
-                <div class="col-md-4 text-left">
-                  <br><br><a href="privacy.html" class="text-light d-block">Privacy Policy</a>
-                  <a href="terms.html" class="text-light d-block">Terms of Service</a>
+                <div class="col-md-4 text-center">
+                  <div style="font-size: 12px;">
+                    <br><br>
+                    <!-- Follow us: -->
+                    <p>Follow Us:</p>
+                    <a style="cursor:pointer;" onclick="window.open(getGoallan())">
+                        <img class="text-center socialmedia" border="0" alt="Facebook Profile" src="https://goallan.com.au/img/icon/facebook.webp" width="30" height="30"></a>
+                    <a style="cursor:pointer;" onclick="window.open(getGoallanIG())">
+                        <img class="text-center socialmedia" border="0" alt="Instagram Profile" src="https://goallan.com.au/img/icon/instagram.webp" width="30" height="30"></a>
+                    <a href="https://youtube.com/@goallan" target="_blank">
+                        <img class="text-center socialmedia" border="0" alt="Youtube Channel" src="https://goallan.com.au/img/icon/youtube.webp" width="30" height="30"></a>
+                    <a href="https://www.linkedin.com/company/goallan/" target="_blank">
+                        <img class="text-center socialmedia" border="0" alt="LinkedIn Profile" src="https://goallan.com.au/img/icon/linkedin.webp" width="30" height="30"></a>
+                </div>
+
+                 
+                 
                 </div>
           
               </div>
             </div>
           </footer>
+          <script>
+            document.getElementById('current-year').textContent = new Date().getFullYear();
+        </script>
+        </body>
+        </html>
           
       

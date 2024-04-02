@@ -17,9 +17,12 @@
 <body>
     <header>
         <!-- Bootstrap Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
-                <a class="navbar-brand" href="index.html">GoClean</a>
+              <a class="navbar-brand" href="index.html">
+                <img src="statics/images/logo.png" alt="Logo" style="height: 80px;">
+                <img src="statics/images/brand.png" alt="Logo" style="height: 25px;">
+              </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -28,57 +31,46 @@
                         <li class="nav-item">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                Services
-                            </a>
-                            <!-- <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-                                <a class="dropdown-item" href="services.html#service1">Service 1</a>
-                                <a class="dropdown-item" href="services.html#service2">Service 2</a> -->
-                                <!-- Add more dropdown items as needed -->
-                            <!-- </div> -->
-                        </li>
+                          <a class="nav-link" href="services.html">Services</a>
+                      </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.html" role="button" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">
                                 About Us
                             </a>
-                            <!-- <div class="dropdown-menu" aria-labelledby="aboutDropdown">
-                                <a class="dropdown-item" href="about.html#history">Who We Are</a>
-                                <a class="dropdown-item" href="about.html#team">Why Us</a>
-                                <a class="dropdown-item" href="about.html#team">Our Work</a>
-                                <a class="dropdown-item" href="about.html#team">Our Team</a> -->
-                                <!-- Add more dropdown items as needed -->
-                            <!-- </div> -->
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="faq.html">FAQ</a>
                         </li>
                     </ul>
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link btn btn-success text-white" href="quote.html">Get Free Quote</a>
+                <a class="nav-item nav-link btn btn-success text-white" href="quote.html">Get Free Quote</a>
                 </div>
                 </div>
             </div>              
-         </nav>
+  </nav>
     </header>
   
-    <div class="container mt-5">
-      <h2 class="text-center mb-4"><br>Frequently Asked Questions</h2>
+    <div class="container mt-5" style="font-size:large">
+      <h1 class="display-4 text-center mb-4">Frequently Asked Questions</h1>
 
       <div id="accordion">
           <!-- Question 1 -->
           <div class="card">
-              <div class="card-header" id="headingOne">
+              <div class="card-header" id="heading1">
                   <h5 class="mb-0">
-                      <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Q1. What services do you offer?
+                      <button class="btn btn-link questions" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapseOne" style="font-size: large;">
+                          Q1. What cleaning services do you offer?
                       </button>
                   </h5>
               </div>
               
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div id="collapse1" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                   <div class="card-body">
-                      We offer a range of cleaning services, including residential cleaning, commercial cleaning, deep cleaning, move-in/move-out cleaning, and specialized services like window or carpet cleaning.
+                    We specialize in factory cleaning, office cleaning, and general cleaning services. 
+                    Our team is equipped to handle spaces of any size, ensuring a thorough and professional 
+                    clean every time.
                   </div>
               </div>
           </div>
@@ -88,15 +80,17 @@
         <div class="card">
           <div class="card-header" id="heading2">
               <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                      Q2. What services do you offer?
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" aria-controls="collapse2" style="font-size: large;">
+                      Q2. How are your cleaning services differnent from other company?
                   </button>
               </h5>
           </div>
           
           <div id="collapse2" class="collapse show" aria-labelledby="heading2" data-parent="#accordion">
               <div class="card-body">
-                  We offer a range of cleaning services, including residential cleaning, commercial cleaning, deep cleaning, move-in/move-out cleaning, and specialized services like window or carpet cleaning.
+                We focus on quality, efficiency, and sustainability. We use state of the art equipment 
+                and eco-friendly cleaning products to provide a superior clean that is safe for both the 
+                environment and the occupants of premises.
               </div>
           </div>
       </div>
@@ -104,61 +98,169 @@
       <div class="card">
         <div class="card-header" id="heading3">
             <h5 class="mb-0">
-                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3">
-                    Q3. What services do you offer?
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse3" aria-expanded="true" aria-controls="collapse3" style="font-size: large;">
+                    Q3. How can I book a cleaning services?
                 </button>
             </h5>
         </div>
         
         <div id="collapse3" class="collapse show" aria-labelledby="heading3" data-parent="#accordion">
             <div class="card-body">
-                We offer a range of cleaning services, including residential cleaning, commercial cleaning, deep cleaning, move-in/move-out cleaning, and specialized services like window or carpet cleaning.
+               You can book our cleaning services through our website, by phone, or via email. 
+               Simply provide us with the details of your cleaning need, 
+               and we will schedule a service that suit your need and timeline.
+            </div>
+        </div>
+    </div>
+     <!-- Question 4 -->
+     <div class="card">
+        <div class="card-header" id="heading4">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4" style="font-size: large;">
+                    Q4. Do you offer regular cleaning contracts?
+                </button>
+            </h5>
+        </div>
+        
+        <div id="collapse4" class="collapse show" aria-labelledby="heading4" data-parent="#accordion">
+            <div class="card-body">
+                Yes, we offer flexible cleaning contracts tailored to your specific needs, 
+                whether you require daily, weekly, monthly, or on-demand cleaning services.
+            </div>
+        </div>
+    </div>
+     <!-- Question 5 -->
+     <div class="card">
+        <div class="card-header" id="heading5">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse5" aria-expanded="true" aria-controls="collapse5" style="font-size: large;">
+                    Q5. How do you price your cleaning services?
+                </button>
+            </h5>
+        </div>
+        
+        <div id="collapse5" class="collapse show" aria-labelledby="heading5" data-parent="#accordion">
+            <div class="card-body">
+                Our pricing is based on the size of the area to be cleaned, the type of cleaning required, 
+                and the frequency of the service. We provide free, no-obligation quotes to give you a 
+                clear understanding of costs involved.
             </div>
         </div>
     </div>
 
-     <!-- Question 4 -->
-     <div class="card">
-      <div class="card-header" id="heading4">
-          <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapse4" aria-expanded="true" aria-controls="collapse4">
-                  Q4. What services do you offer?
-              </button>
-          </h5>
-      </div>
-      
-      <div id="collapse4" class="collapse show" aria-labelledby="heading4" data-parent="#accordion">
-          <div class="card-body">
-              We offer a range of cleaning services, including residential cleaning, commercial cleaning, deep cleaning, move-in/move-out cleaning, and specialized services like window or carpet cleaning.
-          </div>
-      </div>
-  </div>
-      </div>
-      
-  </div>
+    <!-- Question 6 -->
+    <div class="card">
+        <div class="card-header" id="heading6">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse6" aria-expanded="true" aria-controls="collapse6" style="font-size: large;">
+                    Q6. What payment methods do you accept?
+                </button>
+            </h5>
+        </div>
+        
+        <div id="collapse6" class="collapse show" aria-labelledby="heading6" data-parent="#accordion">
+            <div class="card-body">
+                We accept various payment methods, including credit/debit cards, bank transfers, and cash. 
+                Payment details will be provided upon banking.
+            </div>
+        </div>
+    </div>
 
-<footer class="footer fixed-bottom">
+     <!-- Question 7 -->
+     <div class="card">
+        <div class="card-header" id="heading7">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse7" aria-expanded="true" aria-controls="collapse7" style="font-size: large;">
+                    Q7. What safety measures do you take during cleaning?
+                </button>
+            </h5>
+        </div>
+        
+        <div id="collapse7" class="collapse show" aria-labelledby="heading7" data-parent="#accordion">
+            <div class="card-body">
+               Safety is our top priority, we adhere to strict health and safety protocols, 
+               including the use of personal protective equipment (PPE), safe handling of cleaning chemicals, 
+               and ensuring all our staff are trained in safety procedure. 
+            </div>
+        </div>
+    </div>
+
+    <!-- Question 8 -->
+    <div class="card">
+        <div class="card-header" id="heading8">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse8" aria-expanded="true" aria-controls="collapse8" style="font-size: large;">
+                    Q8. Do you use eco-friendly products?
+                </button>
+            </h5>
+        </div>
+        
+        <div id="collapse8" class="collapse show" aria-labelledby="heading8" data-parent="#accordion">
+            <div class="card-body">
+              Yes, we committed to using enviromentally friendly cleaning products and methods wherever possible. 
+              Our aim is to provide a safe and sustainable cleaning service.
+            </div>
+        </div>
+    </div>
+
+    <!-- Question 9 -->
+    <div class="card">
+        <div class="card-header" id="heading9">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse9" aria-expanded="true" aria-controls="collapse9" style="font-size: large;">
+                    Q9. What if I am not satisfied with the cleaning services?
+                </button>
+            </h5>
+        </div>
+        
+        <div id="collapse9" class="collapse show" aria-labelledby="heading9" data-parent="#accordion">
+            <div class="card-body">
+              We strive for 100% customer satisfiction. if you are not satisfied wiht our cleaning service, 
+              please contact us within 24 hours, and we will rectify the situation at no extra cost.
+            </div>
+        </div>
+    </div>
+
+     <!-- Question 10 -->
+     <div class="card">
+        <div class="card-header" id="heading10">
+            <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse10" aria-expanded="true" aria-controls="collapse10" style="font-size: large;">
+                    Q10. How can I provide feedback on your services?
+                </button>
+            </h5>
+        </div>
+        
+        <div id="collapse10" class="collapse show" aria-labelledby="heading10" data-parent="#accordion">
+            <div class="card-body">
+              Your feedback is important to us. You can provide feedback directly through our website, 
+              via email, or by calling our customer service hotline.
+            </div>
+        </div>
+    </div>
+     
+      </div>
+      
+  </div>
+<br><br><br><br>
+<footer class="footer footer-expand-lg ">
     <div class="container">
       <div class="row">
-  
+      
         <!-- Company Name, Logo, Slogan -->
-        <div class="col-md-3">
-          <!-- <a href="index.html" class="footer-brand">
-            <img src="path-to-your-logo.png" alt="GoClean Logo" class="footer-logo">
-          </a> -->
-          <p class="slogan">GoClean</p>
-          <div class="social-media">
-            <!-- Icons with links to your social media pages -->
-            <a href="#" class="text-light mr-2"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="text-light mr-2"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
-          </div>
+        <div class="col-md-4">
+          <p class="slogan"><img src="statics/images/brand.png" style="width: 100px;"></p>
+          <p>© <span id="current-year" ></span> GoClean Solutions.<br>Pristine Perfection, Every Time.</p>
+          <a href="privacy.html" class="text-light"  >Privacy Policy </a><a href="terms.html" class="text-light">| Terms of Service</a>
+          
+            
         </div>
   
         <!-- Contact Address and Social Media -->
-        <div class="col-md-5 text-left">
+        <div class="col-md-4 text-left">
           <address>
-            <strong>Get In Touch</strong><br>
+            <br><br>
+            <strong>Get In Touch</strong><br><br>
             <i class="bi bi-telephone"></i>&nbsp 1300 110 912<br>
             <i class="bi bi-geo-alt"></i>&nbsp 23/31 Keysborough Cl, Keysborough VIC 3173<br>
           </address>
@@ -166,13 +268,30 @@
         </div>
   
         <!-- Links to Privacy and Terms pages -->
-        <div class="col-md-4 text-left">
-          <br><a href="privacy.html" class="text-light d-block">Privacy Policy</a>
-          <a href="terms.html" class="text-light d-block">Terms of Service</a>
+        <div class="col-md-4 text-center">
+          <div style="font-size: 12px;">
+            <br><br>
+            <!-- Follow us: -->
+            <p>Follow Us:</p>
+            <a style="cursor:pointer;" onclick="window.open(getGoallan())">
+                <img class="text-center socialmedia" border="0" alt="Facebook Profile" src="https://goallan.com.au/img/icon/facebook.webp" width="30" height="30"></a>
+            <a style="cursor:pointer;" onclick="window.open(getGoallanIG())">
+                <img class="text-center socialmedia" border="0" alt="Instagram Profile" src="https://goallan.com.au/img/icon/instagram.webp" width="30" height="30"></a>
+            <a href="https://youtube.com/@goallan" target="_blank">
+                <img class="text-center socialmedia" border="0" alt="Youtube Channel" src="https://goallan.com.au/img/icon/youtube.webp" width="30" height="30"></a>
+            <a href="https://www.linkedin.com/company/goallan/" target="_blank">
+                <img class="text-center socialmedia" border="0" alt="LinkedIn Profile" src="https://goallan.com.au/img/icon/linkedin.webp" width="30" height="30"></a>
+        </div>
+
+         
+         
         </div>
   
       </div>
     </div>
   </footer>
+  <script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
 </html>
 
