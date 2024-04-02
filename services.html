@@ -1,50 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>GoClean-Services</title>
-    <link rel="stylesheet" href="statics/css/style.css">
-    <script src="https://kit.fontawesome.com/c2a58305cc.js" crossorigin="anonymous"></script>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400&display=swap" rel="stylesheet">
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script
+      src="https://kit.fontawesome.com/c2a58305cc.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container">
-              <a class="navbar-brand" href="index.html">
-                <img src="statics/images/logo.png" alt="Logo" style="height: 80px;">
-                <img src="statics/images/brand.png" alt="Logo" style="height: 25px;">
-              </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-
-                        <li class="nav-item active">
-                          <a class="nav-link" href="services.html">Services</a>
-                      </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">
-                                About Us
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="faq.html">FAQ</a>
-                        </li>
-                    </ul>
-                <div class="navbar-nav">
-                <a class="nav-item nav-link btn btn-success text-white" href="quote.html">Get Free Quote</a>
-                </div>
-                </div>
-            </div>              
-  </nav>
-    </header>
+    <nav class="navbar fixed-top  navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="statics/images/logo.png" alt="Logo" style="height: 80px" />
+            <img src="statics/images/brand.png" alt="Logo" style="height: 25px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+  
+                    <li class="nav-item active">
+                      <a class="nav-link" href="services.html">Services</a>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" aria-haspopup="true" aria-expanded="false">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                </ul>
+            <div class="navbar-nav">
+            <a class="nav-item nav-link btn btn-success text-white" href="quote.html">Get Free Quote</a>
+            </div>
+            </div>
+            </ul>
+        
+          </div>
+        </div>
+      </nav>
 
     <div class="jumbotron jumbotron-fluid bg-light">
         <div class="container"><br>
@@ -99,58 +118,90 @@
         </div>
     </div>
 
-    <footer class="footer footer-expand-lg ">
+    <footer class="footer bg-dark text-light pt-5 pb-2">
         <div class="container">
           <div class="row">
-          
             <!-- Company Name, Logo, Slogan -->
             <div class="col-md-4">
-              <p class="slogan"><img src="statics/images/brand.png" style="width: 100px;"></p>
-              <p>© <span id="current-year" ></span> GoClean Solutions.<br>Pristine Perfection, Every Time.</p>
-              <a href="privacy.html" class="text-light"  >Privacy Policy </a><a href="terms.html" class="text-light">| Terms of Service</a>
-              
-                
+              <p class="slogan">
+                <img
+                  src="statics/images/brand.png"
+                  style="width: 100px; text-align: center"
+                />
+              </p>
+              <p>
+                © <span id="current-year"></span> GoClean Solutions.<br />Pristine
+                Perfection, Every Time.
+              </p>
+              <a href="privacy.html" class="text-privacy">Privacy Policy </a>
+              <a href="terms.html" class="text-privacy">| Terms of Service</a>
             </div>
-      
+  
             <!-- Contact Address and Social Media -->
             <div class="col-md-4 text-left">
               <address>
-                <br><br>
-                <strong>Get In Touch</strong><br><br>
-                <i class="bi bi-telephone"></i>&nbsp 1300 110 912<br>
-                <i class="bi bi-geo-alt"></i>&nbsp 23/31 Keysborough Cl, Keysborough VIC 3173<br>
+                <strong>GET IN TOUCH</strong><br /><br />
+                <i class="bi bi-telephone"></i>1300 110 912<br />
+                <i class="bi bi-geo-alt"></i> 23/31 Keysborough Cl, Keysborough
+                VIC 3173<br />
               </address>
-              
             </div>
-      
+  
             <!-- Links to Privacy and Terms pages -->
             <div class="col-md-4 text-center">
-              <div style="font-size: 12px;">
-                <br><br>
-                <!-- Follow us: -->
-                <p>Follow Us:</p>
-                <a style="cursor:pointer;" onclick="window.open(getGoallan())">
-                    <img class="text-center socialmedia" border="0" alt="Facebook Profile" src="https://goallan.com.au/img/icon/facebook.webp" width="30" height="30"></a>
-                <a style="cursor:pointer;" onclick="window.open(getGoallanIG())">
-                    <img class="text-center socialmedia" border="0" alt="Instagram Profile" src="https://goallan.com.au/img/icon/instagram.webp" width="30" height="30"></a>
-                <a href="https://youtube.com/@goallan" target="_blank">
-                    <img class="text-center socialmedia" border="0" alt="Youtube Channel" src="https://goallan.com.au/img/icon/youtube.webp" width="30" height="30"></a>
-                <a href="https://www.linkedin.com/company/goallan/" target="_blank">
-                    <img class="text-center socialmedia" border="0" alt="LinkedIn Profile" src="https://goallan.com.au/img/icon/linkedin.webp" width="30" height="30"></a>
+              <!-- <div style="font-size: 12px"> -->
+  
+              <!-- Follow us: -->
+              <strong>FOLLOW US</strong><br /><br />
+              <a style="cursor: pointer" onclick="window.open(getGoallan())">
+                <img
+                  class="text-center socialmedia"
+                  border="0"
+                  alt="Facebook Profile"
+                  src="https://goallan.com.au/img/icon/facebook.webp"
+                  width="30"
+                  height="30"
+              /></a>
+              <a style="cursor: pointer" onclick="window.open(getGoallanIG())">
+                <img
+                  class="text-center socialmedia"
+                  border="0"
+                  alt="Instagram Profile"
+                  src="https://goallan.com.au/img/icon/instagram.webp"
+                  width="30"
+                  height="30"
+              /></a>
+              <a href="https://youtube.com/@goallan" target="_blank">
+                <img
+                  class="text-center socialmedia"
+                  border="0"
+                  alt="Youtube Channel"
+                  src="https://goallan.com.au/img/icon/youtube.webp"
+                  width="30"
+                  height="30"
+              /></a>
+              <a href="https://www.linkedin.com/company/goallan/" target="_blank">
+                <img
+                  class="text-center socialmedia"
+                  border="0"
+                  alt="LinkedIn Profile"
+                  src="https://goallan.com.au/img/icon/linkedin.webp"
+                  width="30"
+                  height="30"
+              /></a>
+              <!-- </div> -->
             </div>
-
-             
-             
-            </div>
-      
           </div>
         </div>
       </footer>
       <script>
         document.getElementById('current-year').textContent = new Date().getFullYear();
     </script>
-
+<script src="js/app.js" crossorigin="anonymous">
+</script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.7.16/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    
 </body
